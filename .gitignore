@@ -1,0 +1,22 @@
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary, intermediate, or non-working GraphML and data files
+graphs/*_*.graphml
+graphs/*_*.pkl
+graphs/*_*_communities.json
+graphs/*_chunk_*_communities.json
